@@ -1,0 +1,19 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#Header {
+    /* This is the empty */
+}
+
+#Main {
+    /* This is the empty */
+    
+}
+
+#Footer {
+    /* This is the empty */
+}
