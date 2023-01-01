@@ -1,19 +1,94 @@
-*, *::after, *::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#Header {
-    /* This is the empty */
+body {
+  background-color: rgb(253, 253, 75);
+  height: 100vh;
 }
 
-#Main {
-    /* This is the empty */
-    
+header {
+  height: 10vh;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-#Footer {
-    /* This is the empty */
+.btn {
+  margin: 0px 20px;
+  padding: 5px 10px;
+  background-color: orangered;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(253, 102, 47);
+}
+
+#content {
+  width: 70vw;
+  background-color: rgba(255, 255, 255, 0.295);
+  margin: auto;
+  height: calc(100vh - 10vh - 5vh);
+  box-shadow: 0px 0 15px -10px black;
+  overflow-y: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#chefImg {
+  height: 60%;
+}
+
+.box {
+  margin: auto;
+  width: 30%;
+  height: 45%;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+.box-img {
+  width: 100%;
+  height: 80%;
+}
+
+footer {
+  height: 5vh;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-btn {
+  background-color: rgb(253, 253, 75);
+  text-decoration: underline;
+  color: black;
+}
+
+.text-lg {
+  font-size: 1.6rem;
+}
+
+.text-md {
+  font-size: 1.1rem;
 }
